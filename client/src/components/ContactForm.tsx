@@ -83,7 +83,7 @@ const ContactForm = () => {
             
             <div className="space-y-6 mb-10">
               <div className="flex items-start">
-                <div className="text-[#0d9488] mr-4 mt-1">
+                <div className="text-primary mr-4 mt-1">
                   <Phone className="h-6 w-6" />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const ContactForm = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="text-[#0d9488] mr-4 mt-1">
+                <div className="text-primary mr-4 mt-1">
                   <Mail className="h-6 w-6" />
                 </div>
                 <div>
@@ -103,7 +103,7 @@ const ContactForm = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="text-[#0d9488] mr-4 mt-1">
+                <div className="text-primary mr-4 mt-1">
                   <MapPin className="h-6 w-6" />
                 </div>
                 <div>
@@ -143,7 +143,7 @@ const ContactForm = () => {
                         <Input 
                           placeholder="John Doe" 
                           {...field} 
-                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-[#0d9488] focus:border-transparent"
+                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </FormControl>
                       <FormMessage />
@@ -162,7 +162,7 @@ const ContactForm = () => {
                           type="email" 
                           placeholder="john@example.com" 
                           {...field} 
-                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-[#0d9488] focus:border-transparent"
+                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </FormControl>
                       <FormMessage />
@@ -180,7 +180,7 @@ const ContactForm = () => {
                         <Input 
                           placeholder="Your Company" 
                           {...field} 
-                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-[#0d9488] focus:border-transparent"
+                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </FormControl>
                       <FormMessage />
