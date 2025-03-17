@@ -1,10 +1,10 @@
 import { Toaster } from "@/components/ui/toaster";
-import Home from "@/pages/Home";
+import StaticHome from "@/pages/StaticHome";
 
 function StaticApp() {
   return (
     <>
-      <Home />
+      <StaticHome />
       <Toaster />
     </>
   );

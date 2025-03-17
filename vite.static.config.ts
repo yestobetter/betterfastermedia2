@@ -1,26 +1,29 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import themePlugin from "@replit/vite-plugin-shadcn-theme-json";
-import path, { dirname } from "path";
-import { fileURLToPath } from "url";
+const { defineConfig } = require('vite');
+const react = require('@vitejs/plugin-react');
+const path = require('path');
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-export default defineConfig({
-  plugins: [
-    react(),
-    themePlugin(),
-  ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "client", "src"),
-      "@shared": path.resolve(__dirname, "shared"),
+// https://vitejs.dev/config/
+module.exports = defineConfig({
+  plugins: [react()],
+  root: './client',
+  base: './',
+  build: {
+    outDir: '../static-build',
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'client/index.html'),
+      },
     },
   },
-  root: path.resolve(__dirname, "client"),
-  build: {
-    outDir: path.resolve(__dirname, "static-build"),
-    emptyOutDir: true,
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './client/src'),
+      '@components': path.resolve(__dirname, './client/src/components'),
+      '@lib': path.resolve(__dirname, './client/src/lib'),
+      '@hooks': path.resolve(__dirname, './client/src/hooks'),
+      '@pages': path.resolve(__dirname, './client/src/pages'),
+      '@shared': path.resolve(__dirname, './shared'),
+    },
   },
 });
