@@ -5,7 +5,7 @@ import TestimonialCard from "./ui/testimonial-card";
 
 // Import images
 import clientImage1 from "../assets/images/bw2.jpg";
-import clientImage2 from "../assets/images/bm1.png";
+import rebeccaImage from "../assets/images/rebecca.jpg";
 import clientImage3 from "../assets/images/testimonial-1.jpg";
 
 // Testimonials data
@@ -20,12 +20,12 @@ const testimonials = [
     quote: "After wasting money on three other SEO agencies that promised the world but delivered nothing, TwoBirdsPress was like a breath of fresh air. They didn't make unrealistic promises - instead they showed us exactly what they were doing and why. Six months in and we're ranking on page 1 for terms we'd given up hope on. Their transparency is refreshing!",
     name: "Rebecca Johnson",
     role: "CEO, Boutique Hospitality Group",
-    image: clientImage2
+    image: rebeccaImage
   },
   {
     quote: "My team struggled for months trying to make sense of our website data. TwoBirdsPress stepped in, fixed our broken Google Tag Manager setup, and created reports that our executives actually understand and use. Best of all, they taught our internal team how to maintain everything instead of keeping us dependent on them. Couldn't recommend them enough!",
-    name: "Jonathan Parker",
-    role: "Digital Director, Financial Services",
+    name: "C.R Rasmussen",
+    role: "CEO, Rasmussen Enterprises",
     image: clientImage3
   }
 ];
