@@ -42,7 +42,7 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
       <Button 
         onClick={() => scrollToElement("contact")}
         variant="ghost" 
-        className="text-primary font-['Montserrat'] font-medium flex items-center hover:text-primary/80 transition-colors p-0 h-auto"
+        className="text-primary font-['Montserrat'] font-medium flex items-center p-0 h-auto"
       >
         Learn More
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
