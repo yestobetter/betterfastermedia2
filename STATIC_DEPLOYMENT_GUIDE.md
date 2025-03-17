@@ -1,6 +1,6 @@
-# BetterFaster Media Static Site Deployment Guide
+# TwoBirdsPress Static Site Deployment Guide
 
-This guide explains how to build and deploy the static version of the BetterFaster Media website.
+This guide explains how to build and deploy the static version of the TwoBirdsPress website.
 
 ## Building the Static Site
 
@@ -65,4 +65,4 @@ To use a custom domain:
 2. Configure SSL/TLS certificates for secure HTTPS connections.
 3. Ensure your hosting provider has HTTPS enabled for your domain.
 
-For any questions or support, please contact: nisjetl@gmail.com
+For any questions or support, please contact: contact@twobirdspress.com
