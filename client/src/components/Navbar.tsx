@@ -36,27 +36,27 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <span className="text-2xl font-bold font-['Playfair_Display'] text-primary">
-            Better<span className="text-[#b59410]">Faster</span>
+            Better<span className="text-primary">Faster</span>
           </span>
-          <span className="ml-2 text-lg font-medium text-[#1877f2]">Media</span>
+          <span className="ml-2 text-lg font-medium text-primary">Media</span>
         </a>
         
         <div className="hidden md:flex items-center space-x-8">
           <a 
             onClick={() => handleNavClick("home")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium cursor-pointer"
           >
             Home
           </a>
           <a 
             onClick={() => handleNavClick("services")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium cursor-pointer"
           >
             Services
           </a>
           <a 
             onClick={() => handleNavClick("about")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium cursor-pointer"
           >
             About
           </a>
@@ -85,19 +85,19 @@ const Navbar = () => {
         <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
           <a 
             onClick={() => handleNavClick("home")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium py-2 cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium py-2 cursor-pointer"
           >
             Home
           </a>
           <a 
             onClick={() => handleNavClick("services")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium py-2 cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium py-2 cursor-pointer"
           >
             Services
           </a>
           <a 
             onClick={() => handleNavClick("about")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium py-2 cursor-pointer"
+            className="text-primary hover:text-primary/80 transition-colors font-medium py-2 cursor-pointer"
           >
             About
           </a>
