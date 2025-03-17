@@ -102,7 +102,7 @@ const About = () => {
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#b59410] opacity-10 rounded-lg"></div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src={bm2} 
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                 alt="TwoBirdsPress team collaboration" 
                 className="w-full h-auto"
               />
