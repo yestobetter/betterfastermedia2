@@ -4,28 +4,35 @@ import { motion } from "framer-motion";
 import { Lock, Shield } from "lucide-react";
 import TeamMemberCard from "./ui/team-member-card";
 
+// Import images
+import testimonial1 from "../assets/images/testimonial-1.jpg";
+import bm1 from "../assets/images/bm1.png";
+import bm3 from "../assets/images/bm3.png";
+import bw2 from "../assets/images/bw2.jpg";
+import bm2 from "../assets/images/bm2.png";
+
 // Team members data
 const teamMembers = [
   {
-    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/testimonial-1.jpg",
+    image: testimonial1,
     name: "Nathan Thompson",
     role: "Founder & CEO",
     bio: "15+ years experience in analytics and data strategy for Fortune 500 companies."
   },
   {
-    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm3.png",
+    image: bm3,
     name: "Cal Rasmussen",
     role: "Director of Operations",
     bio: "Expert in business strategy and operational excellence with proven success across industries."
   },
   {
-    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bw2.jpg",
+    image: bw2,
     name: "Emma Wilson",
     role: "Director of Marketing",
     bio: "Specialized in performance marketing and paid media optimization for luxury brands."
   },
   {
-    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm1.png",
+    image: bm1,
     name: "James Martinez",
     role: "Technical Director",
     bio: "Expert in web development, GTM implementation, and technical integrations."
@@ -95,7 +102,7 @@ const About = () => {
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#b59410] opacity-10 rounded-lg"></div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm2.png" 
+                src={bm2} 
                 alt="TwoBirdsPress team collaboration" 
                 className="w-full h-auto"
               />
