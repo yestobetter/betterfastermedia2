@@ -36,9 +36,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <span className="text-2xl font-bold font-['Playfair_Display'] text-primary">
-            Better<span className="text-primary">Faster</span>
+            TwoBirdsPress
           </span>
-          <span className="ml-2 text-lg font-medium text-primary">Media</span>
         </a>
         
         <div className="hidden md:flex items-center space-x-8">

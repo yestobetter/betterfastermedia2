@@ -13,9 +13,8 @@ const Footer = () => {
           <div>
             <a href="#" className="flex items-center mb-6">
               <span className="text-2xl font-bold font-['Playfair_Display'] text-white">
-                Better<span className="text-primary">Faster</span>
+                TwoBirdsPress
               </span>
-              <span className="ml-2 text-lg font-medium text-primary">Media</span>
             </a>
             <p className="text-gray-300 mb-6">Premium digital marketing solutions for brands that demand excellence.</p>
             <div className="flex space-x-4">
@@ -133,14 +132,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-gray-300" />
-                <span>contact@betterfastermedia.com</span>
+                <span>contact@twobirdspress.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} BetterFaster Media. All rights reserved.</p>
+          <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} TwoBirdsPress. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
