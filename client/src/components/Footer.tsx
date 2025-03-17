@@ -13,9 +13,9 @@ const Footer = () => {
           <div>
             <a href="#" className="flex items-center mb-6">
               <span className="text-2xl font-bold font-['Playfair_Display'] text-white">
-                Better<span className="text-[#b59410]">Faster</span>
+                Better<span className="text-primary">Faster</span>
               </span>
-              <span className="ml-2 text-lg font-medium text-[#0d9488]">Media</span>
+              <span className="ml-2 text-lg font-medium text-primary">Media</span>
             </a>
             <p className="text-gray-300 mb-6">Premium digital marketing solutions for brands that demand excellence.</p>
             <div className="flex space-x-4">

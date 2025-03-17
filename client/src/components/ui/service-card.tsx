@@ -23,7 +23,7 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
       className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
       variants={item}
     >
-      <div className="text-[#0d9488] mb-6">
+      <div className="text-primary mb-6">
         {icon}
       </div>
       

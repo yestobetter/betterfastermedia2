@@ -114,13 +114,13 @@ const ContactForm = () => {
             </div>
             
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-[#b59410] transition-colors">
+              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-80 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-[#b59410] transition-colors">
+              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-80 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-[#b59410] transition-colors">
+              <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-80 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -196,7 +196,7 @@ const ContactForm = () => {
                       <FormLabel className="text-primary font-medium">Service Interested In</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
-                          <SelectTrigger className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-[#0d9488] focus:border-transparent">
+                          <SelectTrigger className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                             <SelectValue placeholder="Select a service" />
                           </SelectTrigger>
                         </FormControl>
@@ -225,7 +225,7 @@ const ContactForm = () => {
                           placeholder="Tell us about your project and requirements..." 
                           rows={5} 
                           {...field} 
-                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-[#0d9488] focus:border-transparent"
+                          className="px-4 py-3 border border-[#94a3b8] rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </FormControl>
                       <FormMessage />
