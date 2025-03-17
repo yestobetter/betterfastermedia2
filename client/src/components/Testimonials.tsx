@@ -4,29 +4,29 @@ import { motion } from "framer-motion";
 import TestimonialCard from "./ui/testimonial-card";
 
 // Import images
-import nathanLapi from "../assets/images/1730828981904.jpeg";
-import bw2 from "../assets/images/bw2.jpg";
-import bm3 from "../assets/images/bm3.png";
+import clientImage1 from "../assets/images/bw2.jpg";
+import clientImage2 from "../assets/images/bm1.png";
+import clientImage3 from "../assets/images/testimonial-1.jpg";
 
 // Testimonials data
 const testimonials = [
   {
     quote: "I was skeptical at first, but working with TwoBirdsPress completely changed our approach to analytics. Emily and her team took the time to understand our business needs, set up custom dashboards that actually make sense, and check in regularly. Our ROI has increased by 32% since partnering with them last year!",
-    name: "Nathan Lapi",
+    name: "Michael Thompson",
     role: "Marketing Director, Luxury Retail Brand",
-    image: nathanLapi
+    image: clientImage1
   },
   {
     quote: "After wasting money on three other SEO agencies that promised the world but delivered nothing, TwoBirdsPress was like a breath of fresh air. They didn't make unrealistic promises - instead they showed us exactly what they were doing and why. Six months in and we're ranking on page 1 for terms we'd given up hope on. Their transparency is refreshing!",
-    name: "Rebecca Wilson",
+    name: "Rebecca Johnson",
     role: "CEO, Boutique Hospitality Group",
-    image: bw2
+    image: clientImage2
   },
   {
     quote: "My team struggled for months trying to make sense of our website data. TwoBirdsPress stepped in, fixed our broken Google Tag Manager setup, and created reports that our executives actually understand and use. Best of all, they taught our internal team how to maintain everything instead of keeping us dependent on them. Couldn't recommend them enough!",
-    name: "Christian Dirolo",
-    role: "Digital Director, Rasmussen Enterprises",
-    image: bm3
+    name: "Jonathan Parker",
+    role: "Digital Director, Financial Services",
+    image: clientImage3
   }
 ];
 

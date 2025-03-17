@@ -8,7 +8,7 @@ import TeamMemberCard from "./ui/team-member-card";
 import nathanLapi from "../assets/images/1730828981904.jpeg";
 import bm1 from "../assets/images/bm1.png";
 import bm3 from "../assets/images/bm3.png";
-import bw2 from "../assets/images/bw2.jpg";
+import bw1 from "../assets/images/bw1.jpeg";
 import bm2 from "../assets/images/bm2.png";
 
 // Team members data
@@ -26,7 +26,7 @@ const teamMembers = [
     bio: "Expert in business strategy and operational excellence with proven success across industries."
   },
   {
-    image: bw2,
+    image: bw1,
     name: "Emma Wilson",
     role: "Director of Marketing",
     bio: "Specialized in performance marketing and paid media optimization for luxury brands."
