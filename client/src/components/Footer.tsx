@@ -96,14 +96,7 @@ const Footer = () => {
                   About Us
                 </a>
               </li>
-              <li>
-                <a 
-                  onClick={() => handleNavClick("case-studies")} 
-                  className="text-gray-300 hover:text-white transition-colors cursor-pointer"
-                >
-                  Case Studies
-                </a>
-              </li>
+
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors">
                   Careers
