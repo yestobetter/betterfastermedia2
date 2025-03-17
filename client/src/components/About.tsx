@@ -7,25 +7,25 @@ import TeamMemberCard from "./ui/team-member-card";
 // Team members data
 const teamMembers = [
   {
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-    name: "Sarah Johnson",
-    role: "Director of Analytics",
+    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/testimonial-1.jpg",
+    name: "Nathan Thompson",
+    role: "Founder & CEO",
     bio: "15+ years experience in analytics and data strategy for Fortune 500 companies."
   },
   {
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-    name: "David Chen",
-    role: "SEO Strategist",
-    bio: "Expert in technical SEO and content strategy with proven success across industries."
+    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm3.png",
+    name: "Cal Rasmussen",
+    role: "Director of Operations",
+    bio: "Expert in business strategy and operational excellence with proven success across industries."
   },
   {
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-    name: "Emma Roberts",
-    role: "PPC Director",
+    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bw2.jpg",
+    name: "Emma Wilson",
+    role: "Director of Marketing",
     bio: "Specialized in performance marketing and paid media optimization for luxury brands."
   },
   {
-    image: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+    image: "https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm1.png",
     name: "James Martinez",
     role: "Technical Director",
     bio: "Expert in web development, GTM implementation, and technical integrations."
@@ -95,7 +95,7 @@ const About = () => {
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#b59410] opacity-10 rounded-lg"></div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://raw.githubusercontent.com/yestobetter/betterfastermedia2/main/bm2.png" 
                 alt="TwoBirdsPress team collaboration" 
                 className="w-full h-auto"
               />
