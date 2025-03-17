@@ -28,7 +28,7 @@ const TeamMemberCard = ({ image, name, role, bio }: TeamMemberCardProps) => {
       </div>
       
       <h4 className="text-xl font-semibold text-primary mb-2">{name}</h4>
-      <p className="text-[#0d9488] mb-4">{role}</p>
+      <p className="text-primary mb-4">{role}</p>
       <p className="text-[#94a3b8] text-sm">{bio}</p>
     </motion.div>
   );

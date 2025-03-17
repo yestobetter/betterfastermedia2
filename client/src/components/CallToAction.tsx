@@ -36,7 +36,7 @@ const CallToAction = () => {
         >
           <Button 
             onClick={() => scrollToElement("contact")}
-            className="inline-block px-8 py-6 bg-white text-primary rounded font-['Montserrat'] font-medium h-auto"
+            className="inline-block px-8 py-6 bg-white text-primary rounded font-['Montserrat'] font-medium h-auto hover:bg-white"
           >
             Schedule a Consultation
           </Button>
