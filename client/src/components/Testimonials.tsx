@@ -24,8 +24,8 @@ const testimonials = [
   },
   {
     quote: "My team struggled for months trying to make sense of our website data. TwoBirdsPress stepped in, fixed our broken Google Tag Manager setup, and created reports that our executives actually understand and use. Best of all, they taught our internal team how to maintain everything instead of keeping us dependent on them. Couldn't recommend them enough!",
-    name: "Cal Rasmussen",
-    role: "Digital Director, Financial Services",
+    name: "Christian Dirolo",
+    role: "Digital Director, Rasmussen Enterprises",
     image: bm3
   }
 ];

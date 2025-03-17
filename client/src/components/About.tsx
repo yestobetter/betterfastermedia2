@@ -21,7 +21,7 @@ const teamMembers = [
   },
   {
     image: bm3,
-    name: "Cal Rasmussen",
+    name: "Christian Dirolo",
     role: "Director of Operations",
     bio: "Expert in business strategy and operational excellence with proven success across industries."
   },
