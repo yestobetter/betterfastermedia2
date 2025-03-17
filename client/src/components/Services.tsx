@@ -14,7 +14,7 @@ import {
 // Service data
 const services = [
   {
-    icon: <BarChart3 className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <BarChart3 className="h-12 w-12 stroke-primary" />,
     title: "Google Analytics Management",
     description: "With over 15 years of expertise, our team provides comprehensive analytics solutions to track, analyze, and optimize your digital performance with precision.",
     features: [
@@ -24,7 +24,7 @@ const services = [
     ]
   },
   {
-    icon: <Tag className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <Tag className="h-12 w-12 stroke-primary" />,
     title: "Google Tag Manager Services",
     description: "Our GTM experts implement sophisticated tracking solutions to capture every meaningful interaction across your digital platforms.",
     features: [
@@ -34,7 +34,7 @@ const services = [
     ]
   },
   {
-    icon: <Search className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <Search className="h-12 w-12 stroke-primary" />,
     title: "Premium SEO Services",
     description: "We deliver industry-leading SEO strategies that elevate your visibility in search results and drive qualified organic traffic to your digital platforms.",
     features: [
@@ -44,7 +44,7 @@ const services = [
     ]
   },
   {
-    icon: <DollarSign className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <DollarSign className="h-12 w-12 stroke-primary" />,
     title: "Paid Media & PPC",
     description: "Strategic paid advertising campaigns across multiple platforms to maximize ROI and drive qualified traffic to your business.",
     features: [
@@ -54,7 +54,7 @@ const services = [
     ]
   },
   {
-    icon: <MessageSquare className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <MessageSquare className="h-12 w-12 stroke-primary" />,
     title: "Social Media Management",
     description: "Comprehensive social media strategies that enhance brand presence, engagement, and conversions across all relevant platforms.",
     features: [
@@ -64,7 +64,7 @@ const services = [
     ]
   },
   {
-    icon: <Code className="h-12 w-12 stroke-[#0d9488]" />,
+    icon: <Code className="h-12 w-12 stroke-primary" />,
     title: "Web Development & Design",
     description: "Custom, performance-optimized websites and applications that deliver exceptional user experiences and support your business objectives.",
     features: [

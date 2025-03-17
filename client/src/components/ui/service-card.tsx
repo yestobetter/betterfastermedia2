@@ -33,7 +33,7 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
       <ul className="mb-6 space-y-3 text-primary">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <Check className="h-5 w-5 mr-2 text-[#b59410] flex-shrink-0 mt-0.5" />
+            <Check className="h-5 w-5 mr-2 text-primary flex-shrink-0 mt-0.5" />
             <span>{feature}</span>
           </li>
         ))}
@@ -42,7 +42,7 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
       <Button 
         onClick={() => scrollToElement("contact")}
         variant="ghost" 
-        className="text-[#0d9488] font-['Montserrat'] font-medium flex items-center hover:text-primary transition-colors p-0 h-auto"
+        className="text-primary font-['Montserrat'] font-medium flex items-center hover:text-primary/80 transition-colors p-0 h-auto"
       >
         Learn More
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
