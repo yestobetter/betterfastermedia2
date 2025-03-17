@@ -17,7 +17,7 @@ const teamMembers = [
     image: nathanLapi,
     name: "Nathan Lapi",
     role: "Founder & CEO",
-    bio: "15+ years experience in analytics and data strategy for Fortune 500 companies."
+    bio: "15+ years experience in analytics and data strategy for USA 1000 companies."
   },
   {
     image: bm3,
@@ -33,7 +33,7 @@ const teamMembers = [
   },
   {
     image: bm1,
-    name: "James Martinez",
+    name: "Sarah Martinez",
     role: "Technical Director",
     bio: "Expert in web development, GTM implementation, and technical integrations."
   }
