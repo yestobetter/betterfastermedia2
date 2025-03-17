@@ -5,7 +5,7 @@ import { Lock, Shield } from "lucide-react";
 import TeamMemberCard from "./ui/team-member-card";
 
 // Import images
-import testimonial1 from "../assets/images/testimonial-1.jpg";
+import nathanLapi from "../assets/images/1730828981904.jpeg";
 import bm1 from "../assets/images/bm1.png";
 import bm3 from "../assets/images/bm3.png";
 import bw2 from "../assets/images/bw2.jpg";
@@ -14,8 +14,8 @@ import bm2 from "../assets/images/bm2.png";
 // Team members data
 const teamMembers = [
   {
-    image: testimonial1,
-    name: "Nathan Thompson",
+    image: nathanLapi,
+    name: "Nathan Lapi",
     role: "Founder & CEO",
     bio: "15+ years experience in analytics and data strategy for Fortune 500 companies."
   },
