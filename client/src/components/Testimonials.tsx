@@ -12,7 +12,7 @@ import clientImage3 from "../assets/images/testimonial-1.jpg";
 const testimonials = [
   {
     quote: "I was skeptical at first, but working with TwoBirdsPress completely changed our approach to analytics. Emily and her team took the time to understand our business needs, set up custom dashboards that actually make sense, and check in regularly. Our ROI has increased by 32% since partnering with them last year!",
-    name: "Michael Thompson",
+    name: "Michaela Thompson",
     role: "Marketing Director, Luxury Retail Brand",
     image: clientImage1
   },
