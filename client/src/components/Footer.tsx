@@ -142,12 +142,22 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} TwoBirdsPress. All rights reserved.</p>
           <div className="flex space-x-6">
-            <Link href="/privacy-policy">
-              <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">Privacy Policy</span>
-            </Link>
-            <Link href="/terms-of-service">
-              <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">Terms of Service</span>
-            </Link>
+            <a 
+              href={window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+                ? '/privacy-policy' 
+                : '/betterfastermedia2/privacy-policy.html'} 
+              className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer"
+            >
+              Privacy Policy
+            </a>
+            <a 
+              href={window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+                ? '/terms-of-service' 
+                : '/betterfastermedia2/terms-of-service.html'}
+              className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer"
+            >
+              Terms of Service
+            </a>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Sitemap</a>
           </div>
         </div>
