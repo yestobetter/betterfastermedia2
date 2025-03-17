@@ -38,7 +38,7 @@ const Navbar = () => {
           <span className="text-2xl font-bold font-['Playfair_Display'] text-primary">
             Better<span className="text-[#b59410]">Faster</span>
           </span>
-          <span className="ml-2 text-lg font-medium text-[#0d9488]">Media</span>
+          <span className="ml-2 text-lg font-medium text-[#1877f2]">Media</span>
         </a>
         
         <div className="hidden md:flex items-center space-x-8">
@@ -53,12 +53,6 @@ const Navbar = () => {
             className="text-primary hover:text-[#b59410] transition-colors font-medium cursor-pointer"
           >
             Services
-          </a>
-          <a 
-            onClick={() => handleNavClick("case-studies")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium cursor-pointer"
-          >
-            Case Studies
           </a>
           <a 
             onClick={() => handleNavClick("about")}
@@ -100,12 +94,6 @@ const Navbar = () => {
             className="text-primary hover:text-[#b59410] transition-colors font-medium py-2 cursor-pointer"
           >
             Services
-          </a>
-          <a 
-            onClick={() => handleNavClick("case-studies")}
-            className="text-primary hover:text-[#b59410] transition-colors font-medium py-2 cursor-pointer"
-          >
-            Case Studies
           </a>
           <a 
             onClick={() => handleNavClick("about")}
