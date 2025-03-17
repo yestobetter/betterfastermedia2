@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Services</h3>
             <ul className="space-y-4">
@@ -84,7 +84,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Company</h3>
             <ul className="space-y-4">
@@ -94,17 +94,6 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors cursor-pointer"
                 >
                   About Us
-                </a>
-              </li>
-
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Blog
                 </a>
               </li>
               <li>
@@ -117,7 +106,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
             <ul className="space-y-4">
@@ -138,7 +127,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} TwoBirdsPress. All rights reserved.</p>
           <div className="flex space-x-6">
