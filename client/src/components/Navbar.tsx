@@ -59,6 +59,12 @@ const Navbar = () => {
           >
             About
           </a>
+          <a 
+            onClick={() => handleNavClick("contact")}
+            className="text-primary hover:text-primary/80 transition-colors font-medium cursor-pointer"
+          >
+            Careers
+          </a>
           <Button 
             onClick={() => handleNavClick("contact")}
             className="px-5 py-2 bg-primary text-white hover:bg-opacity-90 transition-all font-['Montserrat'] font-medium"
@@ -99,6 +105,12 @@ const Navbar = () => {
             className="text-primary hover:text-primary/80 transition-colors font-medium py-2 cursor-pointer"
           >
             About
+          </a>
+          <a 
+            onClick={() => handleNavClick("contact")}
+            className="text-primary hover:text-primary/80 transition-colors font-medium py-2 cursor-pointer"
+          >
+            Careers
           </a>
           <Button 
             onClick={() => handleNavClick("contact")}

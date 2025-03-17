@@ -6,19 +6,19 @@ import TestimonialCard from "./ui/testimonial-card";
 // Testimonials data
 const testimonials = [
   {
-    quote: "The analytics implementation and insights provided by BetterFaster Media transformed our understanding of customer behavior. Their expertise has been invaluable to our growth strategy.",
+    quote: "I was skeptical at first, but working with TwoBirdsPress completely changed our approach to analytics. Emily and her team took the time to understand our business needs, set up custom dashboards that actually make sense, and check in regularly. Our ROI has increased by 32% since partnering with them last year!",
     name: "Michael Thompson",
     role: "Marketing Director, Luxury Retail Brand",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
   },
   {
-    quote: "We've worked with several agencies before, but none have delivered the level of SEO expertise and results that BetterFaster Media has. Their team truly understands our industry and goals.",
+    quote: "After wasting money on three other SEO agencies that promised the world but delivered nothing, TwoBirdsPress was like a breath of fresh air. They didn't make unrealistic promises - instead they showed us exactly what they were doing and why. Six months in and we're ranking on page 1 for terms we'd given up hope on. Their transparency is refreshing!",
     name: "Rebecca Wilson",
     role: "CEO, Boutique Hospitality Group",
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
   },
   {
-    quote: "The team at BetterFaster Media has revolutionized our digital marketing approach. Their Google Tag Manager implementation and data analysis have given us unprecedented insights.",
+    quote: "My team struggled for months trying to make sense of our website data. TwoBirdsPress stepped in, fixed our broken Google Tag Manager setup, and created reports that our executives actually understand and use. Best of all, they taught our internal team how to maintain everything instead of keeping us dependent on them. Couldn't recommend them enough!",
     name: "Jonathan Parker",
     role: "Digital Director, Financial Services",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"

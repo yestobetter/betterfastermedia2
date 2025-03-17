@@ -88,7 +88,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-primary mb-1">Phone</h3>
-                  <p className="text-[#94a3b8]">+1 (555) 123-4567</p>
+                  <p className="text-[#94a3b8]">+1 (323) 688-3445</p>
                 </div>
               </div>
               
@@ -108,7 +108,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-primary mb-1">Location</h3>
-                  <p className="text-[#94a3b8]">123 Innovation Drive, Suite 400<br />New York, NY 10001</p>
+                  <p className="text-[#94a3b8]">95 S State St<br />Salt Lake City, Utah</p>
                 </div>
               </div>
             </div>

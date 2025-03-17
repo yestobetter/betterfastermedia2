@@ -123,12 +123,12 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-gray-300 mt-0.5" />
                 <span>
-                  123 Innovation Drive, Suite 400<br />New York, NY 10001
+                  95 S State St<br />Salt Lake City, Utah
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-gray-300" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (323) 688-3445</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-gray-300" />
