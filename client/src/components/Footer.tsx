@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin, Twitter, Linkedin, Instagram } from "lucide-react";
 import { scrollToElement } from "@/lib/utils";
+import { Link } from "wouter";
 
 const Footer = () => {
   const handleNavClick = (id: string) => {
@@ -141,8 +142,12 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} TwoBirdsPress. All rights reserved.</p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+            <Link href="/privacy-policy">
+              <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">Privacy Policy</span>
+            </Link>
+            <Link href="/terms-of-service">
+              <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">Terms of Service</span>
+            </Link>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Sitemap</a>
           </div>
         </div>
