@@ -58,8 +58,8 @@ const About = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-semibold text-primary mb-6">About BetterFaster Media</h2>
-            <p className="text-lg text-[#94a3b8] mb-6">At BetterFaster Media, we combine strategic insight with technical expertise to deliver exceptional digital marketing solutions for premium brands.</p>
+            <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-semibold text-primary mb-6">About TwoBirdsPress</h2>
+            <p className="text-lg text-[#94a3b8] mb-6">At TwoBirdsPress, we combine strategic insight with technical expertise to deliver exceptional digital marketing solutions for premium brands.</p>
             <p className="text-lg text-[#94a3b8] mb-6">Our team brings over 15 years of experience in analytics, digital marketing, and technology implementation to drive meaningful results for our clients.</p>
             <p className="text-lg text-[#94a3b8] mb-10">We believe in transparency, continuous innovation, and forming long-term partnerships that elevate your brand's digital presence and performance.</p>
             
@@ -96,7 +96,7 @@ const About = () => {
             <div className="relative z-10 rounded-lg overflow-hidden shadow-lg">
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="BetterFaster Media team collaboration" 
+                alt="TwoBirdsPress team collaboration" 
                 className="w-full h-auto"
               />
             </div>

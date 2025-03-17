@@ -65,7 +65,7 @@ Service: ${data.service}
 Message: ${data.message}
       `;
       
-      window.open(`mailto:nisjetl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
+      window.open(`mailto:contact@twobirdspress.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
       
       toast({
         title: "Message prepared for sending!",
@@ -76,7 +76,7 @@ Message: ${data.message}
     } catch (error) {
       toast({
         title: "Failed to prepare email",
-        description: "Please try again or contact us directly at nisjetl@gmail.com",
+        description: "Please try again or contact us directly at contact@twobirdspress.com",
         variant: "destructive",
       });
     } finally {
@@ -113,7 +113,7 @@ Message: ${data.message}
                 </div>
                 <div>
                   <h3 className="font-semibold text-primary mb-1">Email</h3>
-                  <p className="text-[#94a3b8]">nisjetl@gmail.com</p>
+                  <p className="text-[#94a3b8]">contact@twobirdspress.com</p>
                 </div>
               </div>
               
